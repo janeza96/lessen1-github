@@ -1,8 +1,48 @@
-.image{
+.right-wraper{
 	float: right;
-}
-.text{
-	float: left;
-	width: 400PX;
+	background-color: red;
+	width: 600px;
 
 }
+.left-wraper{
+	float: left;
+	background-color: yellow;
+	width: 600px;
+}
+.clear{
+	clear: both;
+}
+.image1{
+	float: right;
+	width: 300px;
+
+}
+.image2{
+	float: left;
+	width: 300px;
+}
+.box::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+/*.left-wraper{
+	float: left;
+	background-color: red;
+	width: 700px;
+	height: 700px;
+}
+.right-wraper{
+	float: right;
+	background-color: yellow;
+	width: 700px;
+	height: 700px;
+}
+/*.clear{
+	clear: both;
+}*/
+.box::after{
+	content: '';
+	display: block;
+}
+*/
